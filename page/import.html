@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Saya Hadir App > Import Data</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/masonry/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../product.css" rel="stylesheet">
+    <link href="../click-tap-image/dist/css/image-zoom.css" rel="stylesheet">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header class="site-header sticky-top py-1 bg-dark">
+        <nav class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="../index.html" aria-label="Product">
+                <h4>Saya Hadir App </h4><sub>readme</sub>
+            </a>
+            <a class="py-2 d-none d-md-inline-block btn btn-info mx-2 text-dark" href="./control_panel.html">Control Panel</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-info mx-2 text-dark" href="./install.html">Cara Install SHA</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-info mx-2 text-dark" href="./import.html">Import Data</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-info mx-2 text-dark" href="./absen.html">Menata Absen</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-info mx-2 text-dark" href="./kontak.html">Kontak</a>
+      <span class="py-2 d-none d-md-inline-block btn-danger" onclick="window.close();">Keluar dari tutorial <br> jika tidak bisa di klik silahkan tekan ALT+F4</span>
+        </nav>
+    </header>
+
+    <main class="container py-5">
+
+        <h1 class="d-flex justify-content-center text-decoration-underline">Import data ke Program SHA</h1>
+
+        <hr class="my-5">
+
+        <div class="row">
+
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../img/web_0.PNG" class="zoom1">
+
+                    <div class="card-body">
+                        <h5 class="card-title">setep 1</h5>
+                        <p class="card-text">
+                            Download Tempelate
+                            <li>buka menu import excell di sidebar</li>
+                            <li>Download Tempelate</li>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../img/excell.PNG" class="zoom2">
+
+                    <div class="card-body">
+                        <h5 class="card-title">setep 2</h5>
+                        <p class="card-text">Mengedit Tempelate
+                            <li>Edit data pada tempelate tanpa merubah format</li>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../img/web_1.PNG" class="zoom3">
+
+                    <div class="card-body">
+                        <h5 class="card-title">setep 3</h5>
+                        <p class="card-text">
+                            Import File Excell
+                            <li>buka menu import excell di sidebar</li>
+                            <li>Pilih Flile Excel yang akan di import</li>
+                            <li>klick import</li>
+                            <li>tunggu proses import selesai</li>
+                            <li>cek log untuk melihat jumlah data yang masuk</li>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+
+    <script src="../js/masonry.pkgd.min.js"></script>
+    <script src="../click-tap-image/dist/js/image-zoom.min.js"></script>
+    <script>
+        $(function () {
+            $('.zoom1').imageZoom({
+                zoom: 500
+            });
+            $('.zoom2').imageZoom({
+                zoom: 500
+            });
+            $('.zoom3').imageZoom({
+                zoom: 500
+            });
+            $('.zoom4').imageZoom({
+                zoom: 500
+            });
+        });
+    </script>
+</body>
+
+</html>

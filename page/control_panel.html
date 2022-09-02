@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Saya Hadir App > Control panel</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/masonry/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../product.css" rel="stylesheet">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header class="site-header sticky-top py-1 bg-dark">
+        <nav class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="../index.html" aria-label="Product">
+                <h4>Saya Hadir App </h4><sub>readme</sub>
+            </a>
+            <a class="py-2 d-none d-md-inline-block btn btn-info mx-2 text-dark" href="./control_panel.html">Control Panel</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-info mx-2 text-dark" href="./install.html">Cara Install SHA</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-info mx-2 text-dark" href="./import.html">Import Data</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-info mx-2 text-dark" href="./absen.html">Menata Absen</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-info mx-2 text-dark" href="./kontak.html">Kontak</a>
+      <span class="py-2 d-none d-md-inline-block btn-danger" onclick="window.close();">Keluar dari tutorial <br> jika tidak bisa di klik silahkan tekan ALT+F4</span>
+        </nav>
+    </header>
+
+    <main>
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+                <h1 class="display-4 fw-normal">Saya Hadir App Control Panel ( SHA CP)</h1>
+                <p class="lead fw-normal">Program ini di gunakan untuk mengontrol Program SHA.</p>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-5">Apa saja yang ada di SHA CP</h2>
+                    <p class="lead">
+
+                        <li>menyalakan dan mematikan server</li>
+                        <li>menyalakan dan mematikan maintenance server</li>
+                        <li>mengatur pengakiran absen auto dan manual</li>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                    <h2 class="display-5">Daftar perintah dan fungsinya</h2>
+                    <p class="lead">
+                        <table class="table table-responsive">
+                            <thead>
+                                <tr>
+                                    <td>No</td>
+                                    <td>Perintah</td>
+                                    <td>Fungsi</td>
+                                    <td>Note</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0</td>
+                                    <td>exit</td>
+                                    <td>keluar dari Control Panel</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>run</td>
+                                    <td>menjalankan atau mengaktifkan SHA server</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>stop</td>
+                                    <td>mematikan SHA server</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>absen-status</td>
+                                    <td>melihat jadwal auto Close absen selanjutnya</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>close</td>
+                                    <td>Mengakhiri absen saat itu juga </td>
+                                    <td>seteleh absen di akhiri guru dan siswa tidak dapat absen lagi</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>auto</td>
+                                    <td>menjalankan system auto close absen</td>
+                                    <td>setelah perintah ini di jalankan jangan tutup windows cmd nya</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>cmd</td>
+                                    <td>menjalankan perintah cmd ( seperti ipconfig, ping dll )</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>install</td>
+                                    <td>menginstall program</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>remove</td>
+                                    <td>menghapus program beserta databasenya</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>maintenance</td>
+                                    <td>masuk ke maintenance mode</td>
+                                    <td>
+                                        ketik on untuk mengaktifkan maintenance
+                                        ketik off untuk menonaktifkan maintenance
+                                        ketik back untuk keluar dari menu maintenance
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>status</td>
+                                    <td>cek status server</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+</body>
+
+</html>
