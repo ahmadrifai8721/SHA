@@ -2,4 +2,4 @@
 Saya Hadir App adalah aplikasi absen berbasis web
 
 
-[OPEN TUTORIAL](https://SHA.github.io"Google's Homepage")
+OPEN TUTORIAL => https://SHA.github.io
